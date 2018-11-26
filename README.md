@@ -1,6 +1,6 @@
 # MobileForce
 
-[![CI Status](https://img.shields.io/travis/hendyevan@gmail.com/MobileForce.svg?style=flat)](https://travis-ci.org/hendyevan@gmail.com/MobileForce)
+[![CI Status](https://img.shields.io/travis/mobiledev.astra@gmail.com/MobileForce.svg?style=flat)](https://travis-ci.org/mobiledev.astra@gmail.com/MobileForce)
 [![Version](https://img.shields.io/cocoapods/v/MobileForce.svg?style=flat)](https://cocoapods.org/pods/MobileForce)
 [![License](https://img.shields.io/cocoapods/l/MobileForce.svg?style=flat)](https://cocoapods.org/pods/MobileForce)
 [![Platform](https://img.shields.io/cocoapods/p/MobileForce.svg?style=flat)](https://cocoapods.org/pods/MobileForce)
@@ -22,7 +22,7 @@ pod 'MobileForce'
 
 ## Author
 
-hendyevan@gmail.com, fabianus.hendyevan@ai.astra.co.id
+fabianus.hendyevan@ai.astra.co.id
 
 ## License
 

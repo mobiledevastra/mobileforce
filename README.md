@@ -22,7 +22,7 @@ pod 'MobileForce'
 
 ## Author
 
-hendyevan@gmail.com, fabianus.hendyevan@ai.astra.co.id
+fabianus.hendyevan@ai.astra.co.id
 
 ## License
 

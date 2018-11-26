@@ -10,7 +10,6 @@
 		54A1246F20BAF1A57FF6BBCDB3DD5E1C /* MobileForce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3071DBD2C38729B645E538D5E48A7B83 /* MobileForce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DD5004CEEB4BB2ABFB6FC6D2672DABB /* Pods-MobileForce_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE4A05C0A54F975EF27D74FD63F1834C /* Pods-MobileForce_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B880D6CBF3BD7B0768211B866107E73 /* Pods-MobileForce_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7D1D8A537E523349D83823342FE231 /* Pods-MobileForce_Tests-dummy.m */; };
-		85DCA14B05AF1CB5003C2870910C520F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D17AD6D94263C0868C219110A5A101 /* ReplaceMe.swift */; };
 		A3EDEF6EC73C99706F6F3F99CC6959CB /* Pods-MobileForce_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8792084CBF50E3A015E1ABC821F7723A /* Pods-MobileForce_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAC4DB36F06DF40DBB9605DD1D14D5C0 /* MobileForce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE3DA707607D25DA06FD0D0A9B506B2 /* MobileForce-dummy.m */; };
 		B2E591EF6140E8AA5D9BF289CFD2C4D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -58,7 +57,6 @@
 		8973C2B53289F9B90F28C6E596E0C77F /* MobileForce.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MobileForce.podspec; sourceTree = "<group>"; };
 		8AB401DDD10EFFEA8278EE27C2BECCBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F99888A07F2BC599ACACDC6CFBD481C /* Pods-MobileForce_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MobileForce_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		91D17AD6D94263C0868C219110A5A101 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MobileForce/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6F17D903B94D49D561996292D9370ED /* Pods-MobileForce_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MobileForce_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AE4A05C0A54F975EF27D74FD63F1834C /* Pods-MobileForce_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MobileForce_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -153,7 +151,6 @@
 		80C440BBC440097047A8E486932DACF9 /* MobileForce */ = {
 			isa = PBXGroup;
 			children = (
-				91D17AD6D94263C0868C219110A5A101 /* ReplaceMe.swift */,
 				F2C67C77766634D879EC8610D73AEAF3 /* Pod */,
 				A796FCB4824DE54432E6CE2FCBFB31DB /* Support Files */,
 			);
@@ -344,7 +341,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAC4DB36F06DF40DBB9605DD1D14D5C0 /* MobileForce-dummy.m in Sources */,
-				85DCA14B05AF1CB5003C2870910C520F /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

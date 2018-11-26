@@ -1,10 +1,9 @@
 # MobileForce
 
-[![CI Status](https://img.shields.io/travis/mobiledev.astra@gmail.com/MobileForce.svg?style=flat)](https://travis-ci.org/mobiledevastra/mobileforce)
+[![CI Status](https://travis-ci.org/mobiledevastra/mobileforce.svg?branch=master)
 [![Version](https://img.shields.io/cocoapods/v/MobileForce.svg?style=flat)](https://cocoapods.org/pods/MobileForce)
 [![License](https://img.shields.io/cocoapods/l/MobileForce.svg?style=flat)](https://cocoapods.org/pods/MobileForce)
 [![Platform](https://img.shields.io/cocoapods/p/MobileForce.svg?style=flat)](https://cocoapods.org/pods/MobileForce)
-[![Platform](https://travis-ci.org/mobiledevastra/mobileforce.svg?branch=master)
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MobileForce_Example' do
+  pod 'MobileForce', :path => '../'
+
+  target 'MobileForce_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

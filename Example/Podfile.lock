@@ -1,0 +1,16 @@
+PODS:
+  - MobileForce (0.1.0)
+
+DEPENDENCIES:
+  - MobileForce (from `../`)
+
+EXTERNAL SOURCES:
+  MobileForce:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MobileForce: 5aa06e0362b79f98930f01dc18445a450c0913e7
+
+PODFILE CHECKSUM: f306a218c7dc0e1665d404accab4deb97414ee32
+
+COCOAPODS: 1.5.3

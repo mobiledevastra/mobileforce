@@ -1,0 +1,22 @@
+{
+  "name": "MobileForce",
+  "version": "0.1.0",
+  "summary": "A short description of MobileForce.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hendyevan@gmail.com/MobileForce",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hendyevan@gmail.com": "fabianus.hendyevan@ai.astra.co.id"
+  },
+  "source": {
+    "git": "https://github.com/hendyevan@gmail.com/MobileForce.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MobileForce/Classes/**/*"
+}

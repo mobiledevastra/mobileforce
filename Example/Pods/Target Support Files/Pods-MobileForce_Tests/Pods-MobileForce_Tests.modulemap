@@ -1,0 +1,6 @@
+framework module Pods_MobileForce_Tests {
+  umbrella header "Pods-MobileForce_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

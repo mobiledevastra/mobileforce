@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54A1246F20BAF1A57FF6BBCDB3DD5E1C /* MobileForce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3071DBD2C38729B645E538D5E48A7B83 /* MobileForce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DD5004CEEB4BB2ABFB6FC6D2672DABB /* Pods-MobileForce_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE4A05C0A54F975EF27D74FD63F1834C /* Pods-MobileForce_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B880D6CBF3BD7B0768211B866107E73 /* Pods-MobileForce_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7D1D8A537E523349D83823342FE231 /* Pods-MobileForce_Tests-dummy.m */; };
+		85DCA14B05AF1CB5003C2870910C520F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D17AD6D94263C0868C219110A5A101 /* ReplaceMe.swift */; };
+		A3EDEF6EC73C99706F6F3F99CC6959CB /* Pods-MobileForce_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8792084CBF50E3A015E1ABC821F7723A /* Pods-MobileForce_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC4DB36F06DF40DBB9605DD1D14D5C0 /* MobileForce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE3DA707607D25DA06FD0D0A9B506B2 /* MobileForce-dummy.m */; };
+		B2E591EF6140E8AA5D9BF289CFD2C4D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D55D7A4B5746D83F0B8AC71AD79C108E /* Pods-MobileForce_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38813DF9A2644C59D4EB352C61399B5A /* Pods-MobileForce_Example-dummy.m */; };
+		EFE030764D49C040E1455C59DB347181 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F3780BBCA07708A6B1B7FBC999468791 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		210A0EFE52E3DAC5DAC6A953E903A146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E0D5A4A0061564A559A7F5DD90F0363;
+			remoteInfo = "Pods-MobileForce_Example";
+		};
+		4F815B16F52524020AC4517D7A363CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB31F5CA1ECB2822201A789E267CEBA9;
+			remoteInfo = MobileForce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D296AFAD892E5DB5D8DA011969BFF5 /* MobileForce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobileForce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B40858E86906A8776424CC417DEA9F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		11212BEC9F19AE64DC79BBACD7B25F7C /* Pods-MobileForce_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MobileForce_Tests.modulemap"; sourceTree = "<group>"; };
+		13CA5CA9B9179D8BE93FA843733CE07D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		22323A7FEDA9079C6DE36A744C46B48A /* Pods_MobileForce_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileForce_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3071DBD2C38729B645E538D5E48A7B83 /* MobileForce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobileForce-umbrella.h"; sourceTree = "<group>"; };
+		33B89462A5B202D4A3D906251B16E730 /* Pods_MobileForce_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileForce_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38813DF9A2644C59D4EB352C61399B5A /* Pods-MobileForce_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MobileForce_Example-dummy.m"; sourceTree = "<group>"; };
+		3B46FD1AA4D871A4551901AB67C0CC87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4671ED7400DF0E8F3E07345A25B22242 /* Pods-MobileForce_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobileForce_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5B2E8C90D3A7DAEFA6FECCF1B52AD956 /* Pods-MobileForce_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobileForce_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EE3DA707607D25DA06FD0D0A9B506B2 /* MobileForce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MobileForce-dummy.m"; sourceTree = "<group>"; };
+		61168D6946E3501DDA4307F28E2F1772 /* Pods-MobileForce_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobileForce_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6686EC8F8498911B61CBA3D5CF401D04 /* Pods-MobileForce_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MobileForce_Example-resources.sh"; sourceTree = "<group>"; };
+		7346AA6A45D337442EC29EDD17C27989 /* Pods-MobileForce_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MobileForce_Tests-resources.sh"; sourceTree = "<group>"; };
+		7DC516C1F43EB48D879720C18BC35872 /* MobileForce.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobileForce.xcconfig; sourceTree = "<group>"; };
+		8792084CBF50E3A015E1ABC821F7723A /* Pods-MobileForce_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MobileForce_Example-umbrella.h"; sourceTree = "<group>"; };
+		8973C2B53289F9B90F28C6E596E0C77F /* MobileForce.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MobileForce.podspec; sourceTree = "<group>"; };
+		8AB401DDD10EFFEA8278EE27C2BECCBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F99888A07F2BC599ACACDC6CFBD481C /* Pods-MobileForce_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MobileForce_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91D17AD6D94263C0868C219110A5A101 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MobileForce/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6F17D903B94D49D561996292D9370ED /* Pods-MobileForce_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MobileForce_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AE4A05C0A54F975EF27D74FD63F1834C /* Pods-MobileForce_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MobileForce_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B1B0295CAFBE924747884B0F0D83A9D0 /* Pods-MobileForce_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobileForce_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BE8937CD48E15018C0392A78344CE751 /* Pods-MobileForce_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobileForce_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA0772A3EE1056E4FAC700AB4BBA5917 /* MobileForce-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobileForce-prefix.pch"; sourceTree = "<group>"; };
+		CA8FA412DF851D6BD2E261505AEF5384 /* Pods-MobileForce_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MobileForce_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB93611187BB17817E7B6264D49D027C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7D1D8A537E523349D83823342FE231 /* Pods-MobileForce_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MobileForce_Tests-dummy.m"; sourceTree = "<group>"; };
+		DFF4A174F3357DFEE6B8ADA9BF37DEC5 /* Pods-MobileForce_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MobileForce_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E8E44D5F2AC3EDA537C384204F177912 /* Pods-MobileForce_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MobileForce_Example.modulemap"; sourceTree = "<group>"; };
+		F95C5E1B01192A3F754AF7B0F60C9D18 /* Pods-MobileForce_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobileForce_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF83385FDD9511FAC04B691B32708F50 /* MobileForce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MobileForce.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FDA41FF914754F7AF9395A26B2E5F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3780BBCA07708A6B1B7FBC999468791 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D87D510B8857D5BE15FA2814C317D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E591EF6140E8AA5D9BF289CFD2C4D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C43986B135AF08664FC0426B2A77825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE030764D49C040E1455C59DB347181 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17CC91AA7A4641070BB54036A71C1103 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3A9DEC5F88F22990A10B45E2D003838 /* Pods-MobileForce_Example */,
+				6BBA18BEEF59488F909407101DF03628 /* Pods-MobileForce_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2A3719248ACFF2077354CC3FD6B7AA80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08D296AFAD892E5DB5D8DA011969BFF5 /* MobileForce.framework */,
+				33B89462A5B202D4A3D906251B16E730 /* Pods_MobileForce_Example.framework */,
+				22323A7FEDA9079C6DE36A744C46B48A /* Pods_MobileForce_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BBA18BEEF59488F909407101DF03628 /* Pods-MobileForce_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3B46FD1AA4D871A4551901AB67C0CC87 /* Info.plist */,
+				11212BEC9F19AE64DC79BBACD7B25F7C /* Pods-MobileForce_Tests.modulemap */,
+				8F99888A07F2BC599ACACDC6CFBD481C /* Pods-MobileForce_Tests-acknowledgements.markdown */,
+				F95C5E1B01192A3F754AF7B0F60C9D18 /* Pods-MobileForce_Tests-acknowledgements.plist */,
+				DE7D1D8A537E523349D83823342FE231 /* Pods-MobileForce_Tests-dummy.m */,
+				A6F17D903B94D49D561996292D9370ED /* Pods-MobileForce_Tests-frameworks.sh */,
+				7346AA6A45D337442EC29EDD17C27989 /* Pods-MobileForce_Tests-resources.sh */,
+				AE4A05C0A54F975EF27D74FD63F1834C /* Pods-MobileForce_Tests-umbrella.h */,
+				5B2E8C90D3A7DAEFA6FECCF1B52AD956 /* Pods-MobileForce_Tests.debug.xcconfig */,
+				4671ED7400DF0E8F3E07345A25B22242 /* Pods-MobileForce_Tests.release.xcconfig */,
+			);
+			name = "Pods-MobileForce_Tests";
+			path = "Target Support Files/Pods-MobileForce_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC71CFF24D4799A84ADD961119094CF7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2A3719248ACFF2077354CC3FD6B7AA80 /* Products */,
+				17CC91AA7A4641070BB54036A71C1103 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80C440BBC440097047A8E486932DACF9 /* MobileForce */ = {
+			isa = PBXGroup;
+			children = (
+				91D17AD6D94263C0868C219110A5A101 /* ReplaceMe.swift */,
+				F2C67C77766634D879EC8610D73AEAF3 /* Pod */,
+				A796FCB4824DE54432E6CE2FCBFB31DB /* Support Files */,
+			);
+			name = MobileForce;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A796FCB4824DE54432E6CE2FCBFB31DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB93611187BB17817E7B6264D49D027C /* Info.plist */,
+				FF83385FDD9511FAC04B691B32708F50 /* MobileForce.modulemap */,
+				7DC516C1F43EB48D879720C18BC35872 /* MobileForce.xcconfig */,
+				5EE3DA707607D25DA06FD0D0A9B506B2 /* MobileForce-dummy.m */,
+				CA0772A3EE1056E4FAC700AB4BBA5917 /* MobileForce-prefix.pch */,
+				3071DBD2C38729B645E538D5E48A7B83 /* MobileForce-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MobileForce";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC71CFF24D4799A84ADD961119094CF7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80C440BBC440097047A8E486932DACF9 /* MobileForce */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F2C67C77766634D879EC8610D73AEAF3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				13CA5CA9B9179D8BE93FA843733CE07D /* LICENSE */,
+				8973C2B53289F9B90F28C6E596E0C77F /* MobileForce.podspec */,
+				0B40858E86906A8776424CC417DEA9F2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F3A9DEC5F88F22990A10B45E2D003838 /* Pods-MobileForce_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8AB401DDD10EFFEA8278EE27C2BECCBE /* Info.plist */,
+				E8E44D5F2AC3EDA537C384204F177912 /* Pods-MobileForce_Example.modulemap */,
+				CA8FA412DF851D6BD2E261505AEF5384 /* Pods-MobileForce_Example-acknowledgements.markdown */,
+				BE8937CD48E15018C0392A78344CE751 /* Pods-MobileForce_Example-acknowledgements.plist */,
+				38813DF9A2644C59D4EB352C61399B5A /* Pods-MobileForce_Example-dummy.m */,
+				DFF4A174F3357DFEE6B8ADA9BF37DEC5 /* Pods-MobileForce_Example-frameworks.sh */,
+				6686EC8F8498911B61CBA3D5CF401D04 /* Pods-MobileForce_Example-resources.sh */,
+				8792084CBF50E3A015E1ABC821F7723A /* Pods-MobileForce_Example-umbrella.h */,
+				B1B0295CAFBE924747884B0F0D83A9D0 /* Pods-MobileForce_Example.debug.xcconfig */,
+				61168D6946E3501DDA4307F28E2F1772 /* Pods-MobileForce_Example.release.xcconfig */,
+			);
+			name = "Pods-MobileForce_Example";
+			path = "Target Support Files/Pods-MobileForce_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4FCC58FA092E1301F4A374D1D465C699 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A1246F20BAF1A57FF6BBCDB3DD5E1C /* MobileForce-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C260F9DEA7C2C52983EBF74249503A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD5004CEEB4BB2ABFB6FC6D2672DABB /* Pods-MobileForce_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22941F5D7B33F8DC5E68C3C12D88DDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EDEF6EC73C99706F6F3F99CC6959CB /* Pods-MobileForce_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7E0D5A4A0061564A559A7F5DD90F0363 /* Pods-MobileForce_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F70537F10EA558272371EA21377CEC7 /* Build configuration list for PBXNativeTarget "Pods-MobileForce_Example" */;
+			buildPhases = (
+				8DF0ED397E8882F1DE768FCBF37C346D /* Sources */,
+				6C43986B135AF08664FC0426B2A77825 /* Frameworks */,
+				C22941F5D7B33F8DC5E68C3C12D88DDF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21ED985A672D2D139B2C0271AD8AF30C /* PBXTargetDependency */,
+			);
+			name = "Pods-MobileForce_Example";
+			productName = "Pods-MobileForce_Example";
+			productReference = 33B89462A5B202D4A3D906251B16E730 /* Pods_MobileForce_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB31F5CA1ECB2822201A789E267CEBA9 /* MobileForce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A88699B07F814BD3A33A1B3E111097D /* Build configuration list for PBXNativeTarget "MobileForce" */;
+			buildPhases = (
+				3B35ED8F21618DBB4FFA9B3CB3468734 /* Sources */,
+				0FDA41FF914754F7AF9395A26B2E5F36 /* Frameworks */,
+				4FCC58FA092E1301F4A374D1D465C699 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileForce;
+			productName = MobileForce;
+			productReference = 08D296AFAD892E5DB5D8DA011969BFF5 /* MobileForce.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E49EE6D30AD8839003EFF4B95E2F072C /* Pods-MobileForce_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F25649E373F5BEF5E8B494AD2B4369E /* Build configuration list for PBXNativeTarget "Pods-MobileForce_Tests" */;
+			buildPhases = (
+				CF269E27F92162B2B2A161CE950ABCF3 /* Sources */,
+				4D87D510B8857D5BE15FA2814C317D6C /* Frameworks */,
+				69C260F9DEA7C2C52983EBF74249503A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02581042C14B9F3BA57FC0522F8940F3 /* PBXTargetDependency */,
+			);
+			name = "Pods-MobileForce_Tests";
+			productName = "Pods-MobileForce_Tests";
+			productReference = 22323A7FEDA9079C6DE36A744C46B48A /* Pods_MobileForce_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2A3719248ACFF2077354CC3FD6B7AA80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB31F5CA1ECB2822201A789E267CEBA9 /* MobileForce */,
+				7E0D5A4A0061564A559A7F5DD90F0363 /* Pods-MobileForce_Example */,
+				E49EE6D30AD8839003EFF4B95E2F072C /* Pods-MobileForce_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B35ED8F21618DBB4FFA9B3CB3468734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC4DB36F06DF40DBB9605DD1D14D5C0 /* MobileForce-dummy.m in Sources */,
+				85DCA14B05AF1CB5003C2870910C520F /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF0ED397E8882F1DE768FCBF37C346D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55D7A4B5746D83F0B8AC71AD79C108E /* Pods-MobileForce_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF269E27F92162B2B2A161CE950ABCF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B880D6CBF3BD7B0768211B866107E73 /* Pods-MobileForce_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02581042C14B9F3BA57FC0522F8940F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MobileForce_Example";
+			target = 7E0D5A4A0061564A559A7F5DD90F0363 /* Pods-MobileForce_Example */;
+			targetProxy = 210A0EFE52E3DAC5DAC6A953E903A146 /* PBXContainerItemProxy */;
+		};
+		21ED985A672D2D139B2C0271AD8AF30C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MobileForce;
+			target = DB31F5CA1ECB2822201A789E267CEBA9 /* MobileForce */;
+			targetProxy = 4F815B16F52524020AC4517D7A363CF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3AD21E7BB722A7463FCC704BB68D4810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61168D6946E3501DDA4307F28E2F1772 /* Pods-MobileForce_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobileForce_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobileForce_Example/Pods-MobileForce_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C264E82F57801C2CB8F8EAAF0D912846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC516C1F43EB48D879720C18BC35872 /* MobileForce.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobileForce/MobileForce-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobileForce/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MobileForce/MobileForce.modulemap";
+				PRODUCT_MODULE_NAME = MobileForce;
+				PRODUCT_NAME = MobileForce;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9963CCCDA95056B7465BD2CBA66B196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4671ED7400DF0E8F3E07345A25B22242 /* Pods-MobileForce_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobileForce_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobileForce_Tests/Pods-MobileForce_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D319F409E2AC30088192716BA3B2E449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B2E8C90D3A7DAEFA6FECCF1B52AD956 /* Pods-MobileForce_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobileForce_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobileForce_Tests/Pods-MobileForce_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5B4F5AF5AF5086196955413E525A88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1B0295CAFBE924747884B0F0D83A9D0 /* Pods-MobileForce_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobileForce_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobileForce_Example/Pods-MobileForce_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F05069410C948302327146D41DA10E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC516C1F43EB48D879720C18BC35872 /* MobileForce.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobileForce/MobileForce-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobileForce/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MobileForce/MobileForce.modulemap";
+				PRODUCT_MODULE_NAME = MobileForce;
+				PRODUCT_NAME = MobileForce;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F70537F10EA558272371EA21377CEC7 /* Build configuration list for PBXNativeTarget "Pods-MobileForce_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B4F5AF5AF5086196955413E525A88D /* Debug */,
+				3AD21E7BB722A7463FCC704BB68D4810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F25649E373F5BEF5E8B494AD2B4369E /* Build configuration list for PBXNativeTarget "Pods-MobileForce_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D319F409E2AC30088192716BA3B2E449 /* Debug */,
+				C9963CCCDA95056B7465BD2CBA66B196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A88699B07F814BD3A33A1B3E111097D /* Build configuration list for PBXNativeTarget "MobileForce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C264E82F57801C2CB8F8EAAF0D912846 /* Debug */,
+				F05069410C948302327146D41DA10E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
